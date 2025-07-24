@@ -1,0 +1,85 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+.top {
+    position: fixed;
+    width: 100%;
+    z-index: 10;
+}
+.header {
+    background: yellow;
+    width: 100%;
+    height: 50px;
+    display:  flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.header .contact{
+    display: flex;
+    /* justify-content: space-around; */
+    align-items: center;
+}
+
+.header .contact .phone, .email, .time {
+    display: flex;
+    margin: 0 10px;
+    align-items: center;
+    font-size: 18px;
+}
+
+.header .contact .phone i,.header .contact .email i,.header .contact .time i {
+    margin-right: 7px;
+}
+
+.header .media-sosial i {
+    margin-right: 7px;
+    font-size: 18px;
+}
+
+nav {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    width: 100%;
+    height: 70px;
+    background: navy;
+    color: white;
+}
+
+nav .logo #title {
+    color: yellow;
+    font-size: 25px;
+    font-weight: 700;
+    font-style: italic;
+}
+
+nav ul {
+    display: flex;
+    align-items: center;
+}
+
+nav ul li {
+    list-style: none;
+    margin-left: 30px;
+    font-size: 16px;
+    font-weight: 600;
+    cursor: pointer;
+}
+
+nav ul li i {
+    color: yellow;
+    font-size: 20px;
+}
+
+.page {
+    background-image: url(assets/background-2.jpg);
+    width: 100%;
+    height: 100vh;
+    background-size: cover;
+    background-position: center;
+}
